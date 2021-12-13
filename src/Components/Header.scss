@@ -1,0 +1,15 @@
+.header-container {
+	aspect-ratio: 16 / 9;
+	background-size: cover;
+	background-position: center top;
+	position: relative;
+
+	.name {
+		position: absolute;
+		top: 150px;
+		right: 20px;
+		bottom: 10px;
+		font-size: 30px;
+		color: red;
+	}
+}

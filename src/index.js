@@ -1,17 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+
+import ReactDOM from "react-dom";
+
+import ProfileCard from "./Components/ProfileCard";
+
+import "./index.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+	<React.StrictMode>
+		<ProfileCard
+			name="Dejene"
+			profilePicture="dejene.png"
+			aboutMeText="I am Dejene a React Developer, Courteous and enthusiastic, I am passionate about IT and everything in its orbit"
+			by="@devD"
+			pictureBy="Pexels"
+			linkedInUrl="https://www.linkedin.com/in/dejene-daba-432029140/"
+			faceBookUrl="https://www.facebook.com/dejene.daba.73"
+			twitterUrl="https://twitter.com/DejeneDaba5"
+			githubUrl="https://github.com/DEJENERUTA"
+			googleUrl="https://myaccount.google.com/profile"
+		/>
+	</React.StrictMode>,
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+	document.getElementById("root")
+);
